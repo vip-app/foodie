@@ -1,0 +1,515 @@
+{  
+  "categories": [  
+    {  
+      "category": "appetizers",  
+      "name": "Закуски"  
+    },  
+    {  
+      "category": "main-courses",  
+      "name": "Основные блюда"  
+    },  
+    {  
+      "category": "desserts",  
+      "name": "Десерты"  
+    },  
+    {  
+      "category": "drinks",  
+      "name": "Напитки"  
+    },  
+    {  
+      "category": "salads",  
+      "name": "Салаты"  
+    },  
+    {  
+      "category": "soups",  
+      "name": "Супы"  
+    },  
+    {  
+      "category": "seafood",  
+      "name": "Морепродукты"  
+    },  
+    {  
+      "category": "vegetarian",  
+      "name": "Вегетарианские блюда"  
+    },  
+    {  
+      "category": "pasta",  
+      "name": "Паста"  
+    },  
+    {  
+      "category": "grilled",  
+      "name": "Гриль"  
+    }  
+  ],  
+  "products": [  
+    {  
+      "category": "appetizers",  
+      "title": "Брускетта",  
+      "price": 250,  
+      "description": "Хрустящий хлеб с томатами и базиликом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "appetizers",  
+      "title": "Куриные крылышки",  
+      "price": 300,  
+      "description": "Острые куриные крылышки с соусом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "appetizers",  
+      "title": "Сырная тарелка",  
+      "price": 400,  
+      "description": "Ассорти сыров с медом и орехами.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "appetizers",  
+      "title": "Овощные палочки",  
+      "price": 200,  
+      "description": "Свежие овощи с соусом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "appetizers",  
+      "title": "Гуакамоле с чипсами",  
+      "price": 350,  
+      "description": "Авокадо с чипсами из тортильи.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "appetizers",  
+      "title": "Капрезе",  
+      "price": 300,  
+      "description": "Салат из моцареллы, помидоров и базилика.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "appetizers",  
+      "title": "Фаршированные грибы",  
+      "price": 450,  
+      "description": "Грибы, фаршированные сыром и зеленью.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "appetizers",  
+      "title": "Креветки в кляре",  
+      "price": 500,  
+      "description": "Креветки, обжаренные в хрустящем кляре.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "appetizers",  
+      "title": "Мини-бургеры",  
+      "price": 600,  
+      "description": "Маленькие бургеры с мясом и овощами.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "main-courses",  
+      "title": "Паста Карбонара",  
+      "price": 600,  
+      "description": "Паста с соусом из яиц, сыра и бекона.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "main-courses",  
+      "title": "Стейк Рибай",  
+      "price": 1200,  
+      "description": "Сочный стейк из говядины с гарниром.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "main-courses",  
+      "title": "Курица терияки",  
+      "price": 700,  
+      "description": "Курица в сладком соусе терияки.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "main-courses",  
+      "title": "Лосось на гриле",  
+      "price": 900,  
+      "description": "Филе лосося, запеченное на гриле.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "main-courses",  
+      "title": "Ризотто с грибами",  
+      "price": 650,  
+      "description": "Кремовое ризотто с лесными грибами.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "main-courses",  
+      "title": "Бифштекс",  
+      "price": 800,  
+      "description": "Сочный бифштекс с картофельным пюре.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "main-courses",  
+      "title": "Пицца Маргарита",  
+      "price": 500,  
+      "description": "Классическая пицца с томатами и моцареллой.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "main-courses",  
+      "title": "Тушеная говядина",  
+      "price": 950,  
+      "description": "Говядина, тушеная с овощами.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "main-courses",  
+      "title": "Куриные наггетсы",  
+      "price": 400,  
+      "description": "Хрустящие куриные наггетсы.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "desserts",  
+      "title": "Тирамису",  
+      "price": 350,  
+      "description": "Итальянский десерт с кофе и маскарпоне.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "desserts",  
+      "title": "Чизкейк",  
+      "price": 400,  
+      "description": "Нежный чизкейк с ягодами.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "desserts",  
+      "title": "Шоколадный торт",  
+      "price": 450,  
+      "description": "Влажный шоколадный торт с кремом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "desserts",  
+      "title": "Фрукты в шоколаде",  
+      "price": 300,  
+      "description": "Ассорти фруктов, покрытых шоколадом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "desserts",  
+      "title": "Морозиво",  
+      "price": 250,  
+      "description": "Разнообразные вкусы домашнего мороженого.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "desserts",  
+      "title": "Пирожное эклер",  
+      "price": 200,  
+      "description": "Классическое пирожное с кремом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "desserts",  
+      "title": "Панна котта",  
+      "price": 350,  
+      "description": "Итальянский десерт с ванильным вкусом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "desserts",  
+      "title": "Крем-брюле",  
+      "price": 400,  
+      "description": "Классический десерт с карамельной корочкой.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "desserts",  
+      "title": "Тарт Татен",  
+      "price": 450,  
+      "description": "Перевернутый яблочный пирог.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "drinks",  
+      "title": "Коктейль Мохито",  
+      "price": 400,  
+      "description": "Освежающий коктейль с мятой и лаймом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "drinks",  
+      "title": "Лимонад",  
+      "price": 200,  
+      "description": "Домашний лимонад с лимоном и мятой.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "drinks",  
+      "title": "Кофе Эспрессо",  
+      "price": 150,  
+      "description": "Классический итальянский эспрессо.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "drinks",  
+      "title": "Чай с лимоном",  
+      "price": 100,  
+      "description": "Чай с добавлением свежего лимона.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "drinks",  
+      "title": "Смузи",  
+      "price": 300,  
+      "description": "Фруктовый смузи с йогуртом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "drinks",  
+      "title": "Коктейль Пина Колада",  
+      "price": 450,  
+      "description": "Тропический коктейль с ананасом и кокосом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "drinks",  
+      "title": "Молочный коктейль",  
+      "price": 350,  
+      "description": "Классический молочный коктейль с мороженым.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "drinks",  
+      "title": "Вино Красное",  
+      "price": 600,  
+      "description": "Качественное красное вино.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "drinks",  
+      "title": "Вино Белое",  
+      "price": 600,  
+      "description": "Качественное белое вино.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "salads",  
+      "title": "Цезарь",  
+      "price": 450,  
+      "description": "Салат с курицей, пармезаном и соусом Цезарь.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "salads",  
+      "title": "Греческий салат",  
+      "price": 400,  
+      "description": "Салат с огурцами, помидорами и фетой.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "salads",  
+      "title": "Салат с тунцом",  
+      "price": 500,  
+      "description": "Салат с тунцом, яйцом и оливками.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "salads",  
+      "title": "Салат с курицей и ананасом",  
+      "price": 450,  
+      "description": "Салат с курицей, ананасом и орехами.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "salads",  
+      "title": "Салат из свежих овощей",  
+      "price": 300,  
+      "description": "Ассорти свежих овощей с оливковым маслом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "salads",  
+      "title": "Салат с киноа",  
+      "price": 400,  
+      "description": "Салат с киноа, овощами и лимонным соусом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "salads",  
+      "title": "Салат с авокадо",  
+      "price": 500,  
+      "description": "Салат с авокадо, помидорами и зеленью.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "salads",  
+      "title": "Салат Нисуаз",  
+      "price": 550,  
+      "description": "Французский салат с тунцом и яйцом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+        {  
+      "category": "soups",  
+      "title": "Том Ям",  
+      "price": 500,  
+      "description": "Острый тайский суп с креветками и лимонной травой.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "soups",  
+      "title": "Суп-пюре из тыквы",  
+      "price": 400,  
+      "description": "Кремовый суп из тыквы с пряностями.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "soups",  
+      "title": "Борщ",  
+      "price": 350,  
+      "description": "Классический украинский борщ с мясом и сметаной.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "soups",  
+      "title": "Куриный бульон",  
+      "price": 300,  
+      "description": "Нежный куриный бульон с овощами.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "soups",  
+      "title": "Грибной суп",  
+      "price": 450,  
+      "description": "Суп с лесными грибами и сливками.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "soups",  
+      "title": "Суп Минестроне",  
+      "price": 400,  
+      "description": "Итальянский овощной суп с пастой.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "seafood",  
+      "title": "Креветки на гриле",  
+      "price": 800,  
+      "description": "Креветки, запеченные на гриле с лимоном.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "seafood",  
+      "title": "Мидии в белом вине",  
+      "price": 700,  
+      "description": "Мидии, приготовленные в белом вине с чесноком.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "seafood",  
+      "title": "Филе трески",  
+      "price": 750,  
+      "description": "Запеченное филе трески с лимоном и зеленью.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "seafood",  
+      "title": "Салат с морепродуктами",  
+      "price": 600,  
+      "description": "Салат с креветками, кальмарами и овощами.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "vegetarian",  
+      "title": "Овощное рагу",  
+      "price": 400,  
+      "description": "Смешанные овощи, тушеные с пряностями.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "vegetarian",  
+      "title": "Паста с овощами",  
+      "price": 500,  
+      "description": "Паста с сезонными овощами и соусом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "vegetarian",  
+      "title": "Кабачковые оладьи",  
+      "price": 350,  
+      "description": "Оладьи из кабачков с соусом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "vegetarian",  
+      "title": "Фалафель",  
+      "price": 300,  
+      "description": "Фалафель с соусом тахини.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "vegetarian",  
+      "title": "Салат с киноа и овощами",  
+      "price": 450,  
+      "description": "Салат с киноа, свежими овощами и лимонным соусом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "pasta",  
+      "title": "Паста Болоньезе",  
+      "price": 600,  
+      "description": "Паста с мясным соусом Болоньезе.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "pasta",  
+      "title": "Паста с морепродуктами",  
+      "price": 700,  
+      "description": "Паста с креветками и мидиями в томатном соусе.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "pasta",  
+      "title": "Паста с песто",  
+      "price": 550,  
+      "description": "Паста с соусом песто и пармезаном.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "pasta",  
+      "title": "Паста с грибами",  
+      "price": 600,  
+      "description": "Паста с грибами и сливочным соусом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "grilled",  
+      "title": "Куриные шашлыки",  
+      "price": 700,  
+      "description": "Шашлыки из куриного филе с овощами.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "grilled",  
+      "title": "Говяжьи шашлыки",  
+      "price": 900,  
+      "description": "Шашлыки из говядины с маринадом.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "grilled",  
+      "title": "Овощи на гриле",  
+      "price": 400,  
+      "description": "Ассорти овощей, запеченных на гриле.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    },  
+    {  
+      "category": "grilled",  
+      "title": "Рыба на гриле",  
+      "price": 800,  
+      "description": "Рыба, запеченная на гриле с лимоном.",  
+      "image": "assets/img/products/product-img-1.jpg"  
+    }  
+  ]  
+}
