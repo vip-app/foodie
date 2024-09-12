@@ -153,76 +153,357 @@
                     <div class="product-filters">
                         <ul>
                             <li class="active" data-filter="*">All</li>
-                            <li data-filter=".strawberry">Strawberry</li>
-                            <li data-filter=".berry">Berry</li>
-                            <li data-filter=".lemon">Lemon</li>
+                            <li data-filter=".appetizers">Закуски</li>
+                            <li data-filter=".soups">Супы</li>
+                            <li data-filter=".salads">Салаты</li>
+							<li data-filter=".meats">Мясо</li>
+							<li data-filter=".seafood">Морепродукты</li>
+							<li data-filter=".desserts">Десерты</li>
+							<li data-filter=".drinks">Напитки</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
 			<div class="row product-lists">
-				<div class="col-lg-4 col-md-6 text-center strawberry">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-1.jpg" alt=""></a>
-						</div>
-						<h3>Strawberry</h3>
-						<p class="product-price"><span> 85$ </span></p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center berry">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-2.jpg" alt=""></a>
-						</div>
-						<h3>Berry</h3>
-						<p class="product-price"><span> 70$ </span></p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center lemon">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-3.jpg" alt=""></a>
-						</div>
-						<h3>Lemon</h3>
-						<p class="product-price"><span> 35$ </span></p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-4.jpg" alt=""></a>
-						</div>
-						<h3>Avocado</h3>
-						<p class="product-price"><span> 50$ </span></p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-5.jpg" alt=""></a>
-						</div>
-						<h3>Green Apple</h3>
-						<p class="product-price"><span> 45$ </span></p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center strawberry">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-6.jpg" alt=""></a>
-						</div>
-						<h3>Strawberry</h3>
-						<p class="product-price"><span> 80$ </span></p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
+				<!-- Здесь будут отображаться продукты --> 
 			</div>
+			<script>  
+				const data = {
+						"products": [{
+								"category": "appetizers",
+								"title": "Бань Куон Том",
+								"price": 470,
+								"description": "С креветками, древесными грибами, луком и морковью. Подаются с соусом Ныок Мам.",
+								"image": "assets/img/products/блины.webp",
+								"weight": "200 / 30",
+								"volume": ""
+							}, {
+								"category": "appetizers",
+								"title": "Нэм Га",
+								"price": 430,
+								"description": "Обжаренные блинчики с курицей, древесными грибами и овощами. Подаются с соусом Ныок Мам, кинзой, острым перцем и салатом.",
+								"image": "assets/img/products/Нэм_Га.webp",
+								"weight": "150 / 40",
+								"volume": ""
+							}, {
+								"category": "appetizers",
+								"title": "Нэм Том",
+								"price": 460,
+								"description": "Обжаренные блинчики с креветками, кальмарами, древесными грибами и овощами. Подаются с соусом Ныок Мам, кинзой, острым перцем и салатом.",
+								"image": "assets/img/products/_MG_2132.webp",
+								"weight": "160 / 40",
+								"volume": ""
+							}, {
+								"category": "appetizers",
+								"title": "Гой Том",
+								"price": 460,
+								"description": "Спринг-роллы с креветками, рисовой лапшой Бун, манго, салатом айсберг и зеленью. Подаются с соусом Ныок Мам.",
+								"image": "assets/img/products/_MG_1994.webp",
+								"weight": "210 / 30",
+								"volume": ""
+							}, {
+								"category": "appetizers",
+								"title": "Бань Бао с курицей",
+								"price": 200,
+								"description": "",
+								"image": "assets/img/products/Бань-Бао.webp",
+								"weight": "180",
+								"volume": ""
+							}, {
+								"category": "soups",
+								"title": "Фо Бо",
+								"price": 510,
+								"description": "Суп Фо с говядиной, рисовой лапшой, имбирем и луком. Подаётся с лаймом, кинзой, острым перцем, ростками бобов, мятой.",
+								"image": "assets/img/products/fo-bo-1.webp",
+								"weight": "",
+								"volume": "800"
+							}, {
+								"category": "soups",
+								"title": "Том Ям",
+								"price": 650,
+								"description": "Тайский суп с креветками, кальмарами, мидиями, шампиньонами, острым перцем, кинзой, имбирем и кокосовым молоком. Подаётся с паровым рисом.",
+								"image": "assets/img/products/том_ям_с_мидиями.webp",
+								"weight": "",
+								"volume": "480"
+							}, {
+								"category": "soups",
+								"title": "Бун Том",
+								"price": 620,
+								"description": "Суп с креветками, томатами, рисовой лапшой Бун и луком, приготовленный на пасте том ям. Подаётся с ростками бобов и кинзой.",
+								"image": "assets/img/products/_MG_2058.webp",
+								"weight": "",
+								"volume": "620 / 20"
+							}, {
+								"category": "soups",
+								"title": "Фо Тай Лан",
+								"price": 580,
+								"description": "Cуп Фо с говяжьей вырезкой, обжаренной с чесноком, имбирем и острым перцем. Подаётся с соусами Зам Той (маринад с чесноком и чили) и Шрирача (острый соус).",
+								"image": "assets/img/products/_MG_2093.webp",
+								"weight": "",
+								"volume": "800"
+							}, {
+								"category": "soups",
+								"title": "Фо Шот Ванг",
+								"price": 610,
+								"description": "Суп Фо с говядиной, тушенной в душистых специях и вине. Подаётся с соусами Зам Той (маринад с чесноком и чили) и Шрирача (острый соус).",
+								"image": "assets/img/products/_MG_2087.webp",
+								"weight": "",
+								"volume": "800"
+							}, {
+								"category": "soups",
+								"title": "Фо Га",
+								"price": 490,
+								"description": "Суп Фо с курицей, рисовой лапшой, лимонным листом и луком. Подаётся с лаймом, кинзой, острым перцем, ростками бобов, мятой.",
+								"image": "assets/img/products/фо_га.webp",
+								"weight": "",
+								"volume": "800"
+							}, {
+								"category": "salads",
+								"title": "Ном Бо Тай",
+								"price": 440,
+								"description": "Свежие овощи, красный лук и маринованная говядина",
+								"image": "assets/img/products/_MG_1989.webp",
+								"weight": "260",
+								"volume": ""
+							}, {
+								"category": "salads",
+								"title": "Ном Зыа",
+								"price": 660,
+								"description": "Салат из креветок, кальмаров, ананаса, сельдерея, с орехами кешью, кинзой, зеленью, чесночным маслом и соусом Ныок Мам.",
+								"image": "assets/img/products/_MG_1982__.webp",
+								"weight": "320",
+								"volume": ""
+							}, {
+								"category": "salads",
+								"title": "Ном Соай Бо",
+								"price": 540,
+								"description": "Cалат с огурцами, манго, кинзой и говядиной под лимонно-чесночным соусом",
+								"image": "assets/img/products/ном_соай_бо.webp",
+								"weight": "250",
+								"volume": ""
+							}, {
+								"category": "meats",
+								"title": "Бун Ча Га",
+								"price": 550,
+								"description": "Обжаренные котлетки из курицы и креветок с луком и кинзой. Подаются с лапшой Бун, овощами и соусом Ныок Мам.",
+								"image": "assets/img/products/Бун_Ча_Га.webp",
+								"weight": "300 / 150",
+								"volume": ""
+							}, {
+								"category": "meats",
+								"title": "Бо Сао Рау",
+								"price": 710,
+								"description": "Говядина, тушенная с устричным соусом, со спаржей, брокколи, помидорами и чесноком. Подается с рисом, приготовленным на пару.",
+								"image": "assets/img/products/1.webp",
+								"weight": "260 / 130",
+								"volume": ""
+							}, {
+								"category": "meats",
+								"title": "Лэн Ранг",
+								"price": 550,
+								"description": "Мясо с карамельным соусом и соусом Ныок Мам. Подаётся с рисом, приготовленным на пару.",
+								"image": "assets/img/products/Лэн_Ранг.webp",
+								"weight": "120 / 120",
+								"volume": ""
+							}, {
+								"category": "meats",
+								"title": "Бун Бо Нам Бо",
+								"price": 570,
+								"description": "Рисовая лапша Бун с обжаренной говядиной, ростками бобов, лимонными стеблями, салатом айсберг, овощами, кинзой, арахисом и сухим луком. Подаётся с соусом Ныок Мам.",
+								"image": "assets/img/products/_MG_2196.webp",
+								"weight": "340 / 100",
+								"volume": ""
+							}, {
+								"category": "meats",
+								"title": "Га Чуа Нгот",
+								"price": 480,
+								"description": "Курица в кисло-сладком соусе с имбирём и чесноком. Подаётся с рисом, приготовленным на пару.",
+								"image": "assets/img/products/_MG_2200.webp",
+								"weight": "180 / 140",
+								"volume": ""
+							}, {
+								"category": "seafood",
+								"title": "Фо Сао Хай Шан",
+								"price": 590,
+								"description": "Рисовая лапша, обжаренная на воке с креветками, кальмарами, яйцом, шампиньонами, овощами, бобами и луком в соевом соусе.",
+								"image": "assets/img/products/лапша.webp",
+								"weight": "370",
+								"volume": ""
+							}, {
+								"category": "seafood",
+								"title": "Ком Ранг Хай Шан",
+								"price": 560,
+								"description": "Рис, обжаренный с креветками, кальмарами, кукурузой, яйцом, морковью, огурцами, томатами, луком и специями в соевом соусе.",
+								"image": "assets/img/products/Ком_Ранг_Хай_Шан.webp",
+								"weight": "340",
+								"volume": ""
+							}, {
+								"category": "seafood",
+								"title": "Том Шот Чань Лео Ком",
+								"price": 840,
+								"description": "Креветки под соусом из свежей маракуйи с рисом",
+								"image": "assets/img/products/Том_Шот_Чань_Лео_Ком.webp",
+								"weight": "200 / 150",
+								"volume": ""
+							}, {
+								"category": "seafood",
+								"title": "Том Там Бот",
+								"price": 550,
+								"description": "Хрустящие креветки в темпуре. Подаются с тамариндовым соусом.",
+								"image": "assets/img/products/Том_Там_Бот.webp",
+								"weight": "220 / 50",
+								"volume": ""
+							}, {
+								"category": "seafood",
+								"title": "Чаи Шот Ванг",
+								"price": 950,
+								"description": "Мидии гигант-киви со сливочно-винным соусом, красным луком и кинзой.",
+								"image": "assets/img/products/мидии.webp",
+								"weight": "65 / 100",
+								"volume": ""
+							}, {
+								"category": "seafood",
+								"title": "Том Ныонг",
+								"price": 650,
+								"description": "Креветки, обжаренные на гриле. Подаются с лимоном и специями.",
+								"image": "assets/img/products/Том_Ныонг.webp",
+								"weight": "120 / 30",
+								"volume": ""
+							}, {
+								"category": "seafood",
+								"title": "Том Там Бот кокосовые",
+								"price": 550,
+								"description": "Хрустящие креветки с кокосовой стружкой, обжаренные в темпурной муке. Подаются с тамариндовым соусом.",
+								"image": "assets/img/products/Том_Там_Бот_2.webp",
+								"weight": "220 / 50",
+								"volume": ""
+							}, {
+								"category": "desserts",
+								"title": "Чуой Там Бот",
+								"price": 390,
+								"description": "Бананы в тесте с арахисом, кокосовой стружкой и карамельным соусом.",
+								"image": "assets/img/products/Бананы.webp",
+								"weight": "150 / 20",
+								"volume": ""
+							}, {
+								"category": "desserts",
+								"title": "Чизкейк шоколадный",
+								"price": 340,
+								"description": "",
+								"image": "assets/img/products/шоколадный.webp",
+								"weight": "100",
+								"volume": ""
+							}, {
+								"category": "desserts",
+								"title": "Чизкейк зелёный чай",
+								"price": 340,
+								"description": "",
+								"image": "assets/img/products/зеленый_чай.webp",
+								"weight": "100",
+								"volume": ""
+							}, {
+								"category": "desserts",
+								"title": "Чизкейк классический",
+								"price": 290,
+								"description": "",
+								"image": "assets/img/products/классический.webp",
+								"weight": "100",
+								"volume": ""
+							}, {
+								"category": "drinks",
+								"title": "Лимонный фреш",
+								"price": 380,
+								"description": "",
+								"image": "assets/img/products/Сок_лимонный_2.webp",
+								"weight": "",
+								"volume": "200"
+							}, {
+								"category": "drinks",
+								"title": "Яблочный фреш",
+								"price": 270,
+								"description": "",
+								"image": "assets/img/products/Сок_яблочный_2.webp",
+								"weight": "",
+								"volume": "200"
+							}, {
+								"category": "drinks",
+								"title": "Морковный фреш",
+								"price": 270,
+								"description": "",
+								"image": "assets/img/products/Сок_морковный_2.webp",
+								"weight": "",
+								"volume": "200"
+							}, {
+								"category": "drinks",
+								"title": "Апельсиновый фреш",
+								"price": 270,
+								"description": "",
+								"image": "assets/img/products/Сок_апельсиновый_2.webp",
+								"weight": "",
+								"volume": "200"
+							}, {
+								"category": "drinks",
+								"title": "Манго-шейк",
+								"price": 450,
+								"description": "",
+								"image": "assets/img/products/Манго-шейк.webp",
+								"weight": "",
+								"volume": "500"
+							}, {
+								"category": "drinks",
+								"title": "Манго-Маракуйя Шейк",
+								"price": 450,
+								"description": "",
+								"image": "assets/img/products/Манго-маракуйя_шейк.webp",
+								"weight": "",
+								"volume": "380"
+							}, {
+								"category": "drinks",
+								"title": "Добрый Апельсин",
+								"price": 120,
+								"description": "",
+								"image": "assets/img/products/Добрый_Апельсин.webp",
+								"weight": "",
+								"volume": "330"
+							}, {
+								"category": "drinks",
+								"title": "Добрый Cola",
+								"price": 120,
+								"description": "",
+								"image": "assets/img/products/Добрый_Кола.webp",
+								"weight": "",
+								"volume": "330"
+							}, {
+								"category": "drinks",
+								"title": "Добрый Лимон-Лайм",
+								"price": 120,
+								"description": "",
+								"image": "assets/img/products/Добрый_лимон-лайм.webp",
+								"weight": "",
+								"volume": "330"
+							}
+						]
+					};  
+
+				const container = document.querySelector('.product-lists');  
+
+				data.products.forEach(product => {  
+					const productBlock = `  
+						<div class="col-lg-4 col-md-6 text-center ${product.category}">  
+							<div class="single-product-item">  
+								<div class="product-image">  
+									<a href="single-product.html"><img src="${product.image}" alt=""></a>  
+								</div>  
+								<h3>${product.title}</h3>  
+								<p class="product-price"><span>${product.price} р.</span></p>  
+								<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Добавить в корзину</a>  
+							</div>  
+						</div>  
+					`;  
+					container.innerHTML += productBlock;  
+				});  
+			</script>  
 
 			<div class="row">
 				<div class="col-lg-12 text-center">
